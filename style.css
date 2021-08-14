@@ -1,0 +1,70 @@
+h1 {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.container {
+    width: 900px;
+    height: 900px;
+    background: #444;
+    margin: auto;
+}
+
+.operations {
+    border-top: 30px solid #444;
+    margin-top: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: auto;
+    height: 10%;
+    background: #fff;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.operations h2 {
+    margin-right: 5%;
+}
+
+.number-buttons {
+    display: inline-block;
+    height: 75%;
+    width: 70%;
+    margin: 20px;
+    margin-top: 5%;
+}
+
+.row {
+    height: 30%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.row button {
+    display: inline-flex;
+    align-items: center;
+    height: 30%;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.operators {
+    position: relative;
+    height: 60%;
+    width: 20%;
+    bottom: 50%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.operators button {
+    height: 90px;
+    width: 64px;
+}
